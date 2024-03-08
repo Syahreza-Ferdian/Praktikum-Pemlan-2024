@@ -17,6 +17,7 @@ public class MainMobil {
         System.out.println(mobil1 + "\n");
         System.out.println(mobil2 + "\n");
         System.out.println(mobil3 + "\n");
+        System.out.println(copyOfMobil1 + "\n");
 
         // instance method
         mobil1.Maju();
