@@ -210,7 +210,7 @@ public class Kasir {
                         System.out.printf("Meja %d tidak memiliki pesanan apapun\n", nomorMejaHitung);
                     } else {
                         int totalHarga = hitungHargaPesanan(nomorMejaHitung);
-                        System.out.printf("Harga pesanan di meja %d adalah %d", nomorMejaHitung, totalHarga);
+                        System.out.printf("Harga pesanan di meja %d adalah Rp %,3d.00", nomorMejaHitung, totalHarga);
                     }
                     break;
                 case 6:
